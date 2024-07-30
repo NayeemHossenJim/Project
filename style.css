@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#Mother
+{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 10% 25% 25% 40%;
+}
+#top
+{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 15px 30px;
+}
+.para
+{
+    padding-top: 5px;
+}
+#top i
+{
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+#Header
+{
+    height: 163px;
+    width: 100%;
+    padding-top: 10px;
+    padding: 12px 50px;
+    line-height: 45px;
+}
+#lastOne
+{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#left
+{
+    padding-left: 55px;
+    font-size: 20px;
+}
+#right
+{
+    padding: 0px 30px; 
+    text-align: left;
+}
+.link
+{
+    width: 195px; 
+    align-items: center;
+    padding-bottom: 0px;
+    border-top: 2px solid black;
+}
+.link i
+{
+    display: flex;
+    justify-content: right;
+    opacity: 0;
+}
+.link a
+{
+    text-decoration: none;
+}
+.link:hover i
+{
+    opacity: 1;
+}
+.link:hover
+{
+    background-color: rgb(156, 156, 156);
+}
+#img
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcO7NQsNTxb2e7ThBWJwSQ3JouqSXuk-o1eg&s);
+    background-size: cover;
+    background-position: 0% 40%;
+}
